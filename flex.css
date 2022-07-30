@@ -1,0 +1,113 @@
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background: rgb(253, 252, 252);
+    max-width: 1440px;
+    max-height: 800px;
+    display: flex;
+    justify-content: center;
+    margin: 8rem auto;
+    
+
+}
+
+body{
+    font-family: Lexend Deca;
+    /* font-weight: 700; */
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.7rem;
+    padding: 1rem 3rem;
+    margin-bottom: 3rem;
+    /* font-size: 0.5rem; */
+
+}
+
+h1{
+    padding: 1rem 3rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+
+}
+
+button {
+    border-radius: 2rem;
+    border-style: none;
+    color: hsl(0, 0%, 95%);
+    padding: 0.3rem;
+    width: 35%;
+    margin-left: 2.8rem;
+
+}
+button:hover{
+    background-color: 0, 0%, 100%, 0.75;
+}
+.aaa{
+    color: hsl(31, 77%, 52%);
+
+}
+.bee{
+    color: hsl(184, 100%, 22%);
+}
+.cee{
+    color: hsl(179, 100%, 13%);
+
+}
+
+.card{
+    padding: 2rem;
+    width: 20rem;
+}
+
+img {
+    padding: 1rem;
+    margin-left: 1.6rem;
+}
+.item-a{
+    
+    background-color: hsl(31, 77%, 52%);
+    border-radius:  5px 0px 0px 5px;
+}
+.item-b{
+    background-color: hsl(184, 100%, 22%);
+}
+.item-c{
+    background-color: hsl(179, 100%, 13%);
+    border-radius:  0px 5px 5px 0px;
+    
+
+}
+@media screen and ( max-width: 375px) {
+   main{
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 1.5rem;
+
+   } 
+   .card{
+    padding: 2rem;
+    width: 20rem;
+
+    
+    
+   }
+   .item-a{
+    border-radius:  10px 10px 0px 0px;
+}
+
+.item-c{
+    border-radius:  0px 0px 10px 10px;
+    
+
+}
+}
